@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1dbabea4c9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row pt-3 bg-light navegador">
+            <div class="col-sm-6 d-flex">
+                <i class="fa-brands fa-instagram fa-2x mt-2"></i>
+                <h2 class="ps-1">Instagram</h2>
+            </div>
+            <div class="col-sm-6 d-flex mb-4 menus ">
+                <div class="ms-auto d-flex">
+                    <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#popUpModal">Create a new post</button>
+                    <div  class="modal fade" id="popUpModal" tabindex="-1" aria-labelledby="menuModal">
+                        <div class="modal-dialog">
+                          <div class="modal-content w-100">
+                            <div class="modal-header">
+                              <h3 class="modal-title" id="popUpModal1">Create a new post</h3>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseModal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <h6 class="">Caption:</h6>
+                              <textarea class="textarea d-block" placeholder="Add the caption of your post here"></textarea>
+                              <button class="btn bg-light mt-2" ><i class="fa-solid fa-camera"></i></button> 
+                              <button class="btn bg-light mt-2"><i class="fa-solid fa-location-dot"></i></button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="dropdown ms-2 mt-1">
+                        <button class="btn btn-dropdown dropdown-toggle btn-lg " type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-gear"></i></button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profile</a></li>
+                              <li>
+                                <a class="dropdown-item" href="#">Accesibility</a>
+                              </li>
+                              <li>
+                                <a class="dropdown-item" href="#"> Privacy and Data</a>
+                              </li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li>
+                                <a class="dropdown-item logout" href="#">Log out</a>
+                              </li>
+                            </ul>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+        <div class="container-fluid container2 mx-0 my-3">
+          <div class="row mb-2">
+            <div class="col-lg-4 "><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fwallpup.com%2Fwp-content%2Fuploads%2F2013%2F01%2FTokyo-Tower-At-Night-Wallpaper.jpg&f=1&nofb=1&ipt=f69fb503d6446434c91fecddcc3cad0a8fc03536027ce69019ec7e94b096d02f&ipo=images" alt="responsive-image"></div>
+            <div class="col-lg-4"><img class="img-fluid mb-3 " src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.xtrafondos.com%2Fwallpapers%2Fmuralla-china-4942.jpg&f=1&nofb=1&ipt=fb9ad0c66174bf07f92173971591fa9434b2884b77ef02c75a40a0783c89222c&ipo=images" alt="responsive-image"></div>
+            <div class="col-lg-4"><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.getyourguide.com%2Fimg%2Flocation%2F5d13c5084862b.jpeg%2F88.jpg&f=1&nofb=1&ipt=2bcb62a83904b308ff78a46c03df6a01e9beed12e3b836a4588eb19d371b69b8&ipo=images" alt="responsive-image"></div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 "><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.turismocarey.tur.ar%2Fwp-content%2Fuploads%2F2016%2F12%2Frio-web.jpg&f=1&nofb=1&ipt=cf29f96272d66fecfc3b28bc31a6694109c5871ed8ab9cb99da9a1d9b1a61eba&ipo=images" alt="responsive-image"></div>
+              <div class="col-lg-4"><img class="img-fluid mb-3 " src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajarabrasil.com%2Fwp-content%2Fuploads%2F2023%2F04%2Fstairs-pontal-do-atalaia-arraial-do-cabo-rio-de-janeiro1.jpg&f=1&nofb=1&ipt=0d8ee9d58915c9f7e4350b4a07dc8d9f4a43c2ef1693019b4ca6f16a6e551bb3&ipo=images" alt="responsive-image" alt="responsive-image"></div>
+              <div class="col-lg-4"><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundodinero.com.ar%2Fwp-content%2Fuploads%2F2015%2F01%2Fpuerto-madero-yacht-club-buenos-aires-world-hd-wallpaper-1920x1080-1889.jpg&f=1&nofb=1&ipt=d7c06fb3186af75d6d71de1c1c65c8020b6b8563a8021f7a72236a644e5c3e3a&ipo=images" alt="responsive-image"></div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-lg-4 "><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.bekiaviajes.com%2Farticulos%2Fportada%2F97000%2F97366-h.jpg&f=1&nofb=1&ipt=3b9bc2c451fba7e5628a3fb4786e4bdda3299a0a94a3b95e3e1d4f3397d07e75&ipo=images" alt="responsive-image"></div>
+                <div class="col-lg-4"><img class="img-fluid mb-3 " src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flp-cms-production.imgix.net%2F2021-04%2FshutterstockRF_713119015.jpg%3Fauto%3Dformat%26fit%3Dcrop%26sharp%3D10%26vib%3D20%26ixlib%3Dreact-8.6.4%26w%3D850%26q%3D23%26dpr%3D4&f=1&nofb=1&ipt=814bc97d3df7e0b2b7cdb18ee54e1dfaf576de8ab925f5375145e689d8dec774&ipo=images" alt="responsive-image"></div>
+                <div class="col-lg-4"><img class="img-fluid mb-3" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcfimages.mercuryholidays.co.uk%2F3vgdkcmqrnp2%2F2QO1M9xRDK5lV100wSFv8f%2F5411132b6024d7cdd84a81a065d9b4d4%2FPuerto_Varas.jpg%3Fw%3D1920%26fm%3Djpg%26fl%3Dprogressive%26q%3D80&f=1&nofb=1&ipt=3c151aebd84db65d5147731e93a4b19319854095c7f89d86583bfea990fbe80c&ipo=images" alt="responsive-image"></div>
+                </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

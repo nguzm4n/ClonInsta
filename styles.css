@@ -1,0 +1,42 @@
+h2 {
+    font-size: 35px;
+}
+
+.logout {
+    color: #eb3434;
+}
+
+.navegador {
+    box-sizing: border-box;
+    
+}
+
+h6 {
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.post {
+    max-height: 1000px;
+    width: 500px;
+    border: 1px solid hsl(0, 0%, 58%);
+    margin-top: 40px;
+}
+
+img {
+    width: 100%;
+    min-height: 400px;
+    max-height: 400px;
+
+}
+.fecha {
+    margin-left: 50%;
+}
+
+h5 {
+    font-size: 17px;
+}
+
